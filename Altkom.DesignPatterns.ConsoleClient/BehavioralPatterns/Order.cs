@@ -11,6 +11,11 @@ namespace Altkom.DesignPatterns.ConsoleClient.BehavioralPatterns
 
     }
 
+    public class Customer
+    {
+        public string Name { get; set; }
+    }
+
     public class Order : Base
     {
         public int Quantity { get; set; }
@@ -20,6 +25,10 @@ namespace Altkom.DesignPatterns.ConsoleClient.BehavioralPatterns
         public DateTime OrderDate { get; set; }
 
         public decimal Amount => Quantity * Price;
+
+        public float? Weight { get; set; }
+
+        public Customer Customer { get; set; }
 
 
     }
