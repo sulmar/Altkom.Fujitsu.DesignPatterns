@@ -42,11 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehavioralPatterns\Order.cs" />
+    <Compile Include="BehavioralPatterns\StrategyPattern\OrderCalculator.cs" />
+    <Compile Include="BehavioralPatterns\TemplateMethodPattern\OrderCalculator.cs" />
+    <Compile Include="CreationalPatterns\FluentApiPattern\Mail.cs" />
+    <Compile Include="CreationalPatterns\PrototypePattern\Invoice.cs" />
+    <Compile Include="CreationalPatterns\SingletonPattern\Context.cs" />
+    <Compile Include="CreationalPatterns\SingletonPattern\Service.cs" />
+    <Compile Include="CreationalPatterns\SingletonPattern\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="SOLID\ISP\IBankomat.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern\Device.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern\IDevice.cs" />
+    <Compile Include="StructuralPatterns\DecoratorPattern\IWidget.cs" />
+    <Compile Include="StructuralPatterns\FacadePattern\IWashMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
