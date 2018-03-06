@@ -56,6 +56,8 @@
     <Compile Include="DecoratorUnitTest.cs" />
     <Compile Include="FacadeUnitTest.cs" />
     <Compile Include="StrategyUnitTest.cs" />
+    <Compile Include="ExperimentalUnitTest.cs" />
+    <Compile Include="CommandUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
